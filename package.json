@@ -1,0 +1,9 @@
+{
+  "name": "iot-cell",
+  "version": "",
+  "description": "remote sensing display for time-series or graphable data",
+  "main": "",
+  "keywords": ["iot", "react", "sensor", "reactive", "virtual-dom", "component"],
+  "author": "John Elliott",
+  "license": "MIT"
+}
