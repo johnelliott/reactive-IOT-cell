@@ -1,13 +1,12 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Sparkline = require('./sparkline.js');
 var Counter = require('./counter-component.js')
 
 const render = ()=>{
-    ReactDOM.render(
-      <Counter data={store.getState()} />,
-        document.getElementById('root')
-    );
+  ReactDOM.render(
+    <Counter data={store.getState()} />,
+    document.getElementById('root')
+  );
 };
 
 // TODO replace with redux or some state-getter-haver
